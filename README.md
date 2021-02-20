@@ -1,2 +1,2 @@
 # LossFunctions
-Various Loss Functions for Pytorch (End)
+Various SOTA Loss Functions for Pytorch (End)
