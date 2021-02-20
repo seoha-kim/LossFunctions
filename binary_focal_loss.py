@@ -1,3 +1,6 @@
+import torch
+import torch.nn as nn
+
 class FocalLoss(nn.Module):
     def __init__(self, weight=None, size_average=True):
         super(FocalLoss, self).__init__()
