@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 
-class FocalLoss(nn.Module):
+class BinaryFocalLoss(nn.Module):
     def __init__(self, weight=None, size_average=True):
-        super(FocalLoss, self).__init__()
+        super(BinaryFocalLoss, self).__init__()
 
     def forward(self, inputs, targets, pos_weight=None,alpha=0.8, gamma=2, smooth=1):
         
